@@ -1,0 +1,80 @@
+:root{
+    --nev-color: #194A73;
+    --hedar-color: #001730;
+    --fonts-color-1: #008CFC;
+    --fonts-color-2: #ffffff;
+    --fonts-color-3: #c1c1c1;
+    --fonts-color-4:#001730;
+    --fonts-color-5:#6ec1e4;
+    --fonts-color-6:#011c3a;
+    --box-color: #184C73;
+    --btn-color: #008CFC;
+    --nunito-font: 'Nunito Sans';
+    --open-sans-font: 'Open Sans';
+    --noto-font: 'Noto Sans';
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul , li{
+    list-style: none;
+}
+.contaner{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.relative{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+}
+.fixed{
+    position: fixed;
+}
+.justify-conten-between{
+    justify-content: space-between;
+}
+.justify-conten-center{
+    justify-content: center;
+}
+.justify-conten-end{
+    justify-content: flex-end;
+}
+.align-item-center{
+   align-items: center;
+}
+.w-50{
+    width: 50%;
+    padding: 12px;
+}
+.w-33{
+    width: 33.33%;
+    padding: 12px;
+}
+.w-25{
+    width: 25%;
+    padding: 15px;
+}
+.w-80{
+    width: 80%;
+    padding: 12px;
+}
+.w-20{
+    width: 20%;
+    padding: 12px;
+}
+.w-70{
+    width: 70%;
+    padding: 12px;
+}
+.w-30{
+    width: 30%;
+    padding: 12px;
+}

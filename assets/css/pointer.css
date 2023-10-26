@@ -1,0 +1,48 @@
+:root{
+    --nev-color: #194A73;
+    --hedar-color: #001730;
+    --fonts-color-1: #008CFC;
+    --fonts-color-2: #ffffff;
+    --fonts-color-3: #c1c1c1;
+    --fonts-color-4:#001730;
+    --fonts-color-5:#6ec1e4;
+    --fonts-color-6:#011c3a;
+    --fonts-color-7: #656565;
+    --box-color: #184C73;
+    --btn-color: #008CFC;
+    --nunito-font: 'Nunito Sans';
+    --open-sans-font: 'Open Sans';
+}
+#pointer-dot {
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+    border: 2.5px solid var(--fonts-color-1)!important;
+    position: fixed;
+    border-radius: 4px;
+    z-index: 101;
+    pointer-events: none;
+    transition: border-color 0.5s;
+}
+
+#pointer-ring {
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+    padding: 15px;
+    border: 3px solid var(--fonts-color-7)!important;
+    position: fixed;
+    border-radius: 100px;
+    z-index: 102;
+    pointer-events: none;
+}
+
+html {
+    cursor: none !important;
+}
+
+a {
+    cursor: none !important;
+}

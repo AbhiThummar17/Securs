@@ -1,0 +1,520 @@
+:root{
+    --nev-color: #194A73;
+    --hedar-color: #001730;
+    --fonts-color-1: #008CFC;
+    --fonts-color-2: #ffffff;
+    --fonts-color-3: #c1c1c1;
+    --fonts-color-4:#001730;
+    --fonts-color-5:#6ec1e4;
+    --fonts-color-6:#011c3a;
+    --fonts-color-7: #656565;
+    --box-color: #184C73;
+    --btn-color: #008CFC;
+    --nunito-font: 'Nunito Sans';
+    --open-sans-font: 'Open Sans';
+    --noto-font: 'Noto Sans';
+}
+nav{
+    width: 100%;
+    background-color: var(--nev-color);
+    padding: 20px 0;
+}
+nav ul li i ,footer ul li i{
+    font-size: 20px;
+    color: var(--fonts-color-1);
+    padding-right: 10px;
+}
+nav ul li:hover i{
+	color: var(--fonts-color-2);
+}
+nav ul li p{
+    font-size: 16px;
+    color: var(--fonts-color-2);
+    font-weight: 100;
+}
+header{
+    width: 100%;
+    background-color: var(--hedar-color);
+}
+header img{
+    width: 175px;
+    height: 60px;
+    line-height: 90px;
+}
+header ul li a{
+    font-size: 15px;
+    font-family: var(--nunito-font);
+    color: var(--fonts-color-2);
+    font-weight: 600;
+    padding: 0 15px;
+    text-decoration: none;
+}
+header ul li a:hover{
+    color: var(--fonts-color-1);
+}
+.home , .about ,.securs{
+    width: 100%;
+    background-image: url(../img/Background63.jpg);
+    background-size: cover;
+    background-position: 50%;
+		
+}
+.home h5 , .about h5 ,.securs h5 ,.need h5 , .meet h5 ,.prices h5 ,.closer h5{
+    font-size: 20px;
+    font-family: var(--open-sans-font);
+    color: var(--fonts-color-2);
+    font-weight: 600;
+    margin: 0 0 12px;
+}
+.home h2 ,.about h2 ,.securs h2 ,.need h2 ,.meet h2 ,.trusted h2 ,.prices h2 ,.closer h2{
+    font-size: 72px;
+    font-family: var(--nunito-font);
+    color: var(--fonts-color-2);
+    margin: 0 0 40px;
+}
+.home h2 span ,.about h2 span ,.securs h2 span ,.need h2 span ,.meet h2 span ,.trusted h2 span ,.prices h2 span ,.closer h2 span{
+    color: var(--fonts-color-1);
+}
+.home p , .about p ,.securs p ,.closer p{
+    font-size: 16px;
+    color: var(--fonts-color-3);
+    font-family: var(--nunito-font);
+    margin: 0 0 35px;
+    font-weight: 600;
+    word-spacing: 5px;
+}
+button{
+    padding: 13px 23px;
+    border-radius: 50px;
+    background-color: var(--fonts-color-2);
+    border: none    ;
+}
+button a{
+    font-size: 14px;
+    color: var(--fonts-color-1);
+    font-family: var(--open-sans-font);
+}
+button:hover{
+    background-color: var(--fonts-color-1);
+}
+button:hover a{
+    color: var(--fonts-color-2);
+}
+.service{
+    background-image: url(../img/Background67.jpg);
+    background-size: cover;
+    background-position: 50%;
+}
+.service .box{
+    width: 100%;
+    height: 220px;
+    background-color: var(--hedar-color);   
+    border-radius: 20px;
+}
+.service .box h2{
+    font-size: 20px;
+    font-family: var(--open-sans-font);
+    color: var(--fonts-color-1);
+    margin: 45px 0 20px;
+}
+.service .box p{
+    font-size: 16px;
+    color: var(--fonts-color-3);
+    font-family: var(--nunito-font);
+    font-weight: 600;
+    text-align: right;  
+}
+.service .box i{
+    font-size: 40px;
+    transform: translateX(90%);
+    transform: translateY(110%);
+    color: var(--fonts-color-2);
+}
+.service .box i:hover{
+    font-size: 40px;
+    color: var(--fonts-color-1);
+}
+.about{
+    background-image: url(../img/Background64.jpg);
+}
+.about h2, .meet h2 ,.prices h2 ,.closer h2{
+    font-size: 48px;
+}
+.about img{
+    width: 100%;
+    margin-top: 50px;
+}
+.securs{
+    background-image: url(../img/png-bg-75.png);
+}
+.securs img{
+    width: 100%;
+    margin-top: 400px;
+}
+.securs h5 ,.meer h5{
+    color: var(--fonts-color-6);
+    font-weight: 100;
+    margin: 250px 0 0 0;
+}
+.securs h2,.need h2 ,.meer h2{
+    color: var(--fonts-color-6);
+    font-size: 48px;
+    margin: 0 73px 50px 0;
+}
+.securs p ,.meer p{
+    padding: 30px 0 70px 0;
+    color: #525252;
+}
+.box1{
+	width:245px;
+	height:175px;
+	background-color: var(--fonts-color-6);
+	border-radius: 20px;
+	text-align: center;
+	align-items: center;
+	font-family: var(--nunito-font);
+	font-weight:600;
+	margin: 40px 20px 0 0;
+}
+.box1:first-child{
+    background-color: rgba(239, 239, 239, 0.581);
+}
+.securs .box1 i{
+	font-size:40px;
+	display:block;
+	line-height:90px;
+	color:var(--fonts-color-1);
+}
+.securs .box1 span{
+	font-size:24px;
+	line-height:10px;
+    font-weight: 600;
+	color:var(--fonts-color-2);
+}
+.securs .box1 p{
+	font-size:16px;
+	line-height:50px;
+    padding: 0;
+    font-weight: 600;
+	color:var(--fonts-color-2);
+    border: 3px ;
+}   
+.securs .box1:first-child p ,.securs .box1:first-child span{
+    color: var(--fonts-color-1);
+}
+.need{
+    padding: 16px 16px 96px;
+    background-image: url(../img/png-bg-79.png);
+    background-size: cover;
+	text-align: center;
+	margin-top: 30px;
+}
+.box2{
+    padding: 60px 40px;
+	background-color: #eaeaeadb;
+	border-radius:20px;
+}
+.need h5{
+	color:var(--fonts-color-4);
+	font-weight: 600;
+}
+.need a{
+	text-decoration: none;
+}
+.need .box2 i{
+	font-size: 40px;
+	color: var(--fonts-color-4);
+}
+.need .box2 h4{
+	font-size: 23px;
+	font-family: var(--nunito-font);
+	color: var(--fonts-color-4);
+	margin-top: 15px;
+}
+.need .box2 p ,.meet .box3 p{
+	font-size: 16px;
+	font-family: var(--nunito-font);
+	color: var(--fonts-color-7);
+    font-weight: 600;
+	margin-top: 20px;
+}
+.need .box2 a{
+	font-size: 16px;
+	font-family: var(--nunito-font);
+	color: var(--fonts-color-4);
+}
+.btn{
+    margin: 15px;
+    padding: 20px 10px;
+}
+.need .box2 a i{
+	font-size:16px;
+}
+.owl-dots{
+	display: none;
+}
+.meet ,.trusted ,.prices{
+	text-align: center;
+	background-color: var(--fonts-color-6);
+}
+.meet h2{
+    margin: 0;
+    padding-bottom: 50px;
+}
+.box3{
+	background-color: var(--hedar-color);
+	border-radius: 20px;
+	text-align: center;
+	align-items: center; 
+}
+.trusted{ 
+	padding: 50px;
+}
+.trusted h2{
+	font-size: 36px;
+	margin: 40px 0 0 0;
+}
+.box5 img{
+	margin: 40px 80px;
+}
+#accordion{
+    margin: 30px 0;
+    border-radius: 20px;
+    font-size: 20px;
+    background-color: var(--hedar-color);
+    color: var(--fonts-color-1);    
+    font-family: var(--nunito-font);
+}
+#accordion p ,#accordion ul li{
+    font-size: 16px;
+    background-color: var(--nev-color);
+    color: var(--fonts-color-5);    
+    font-family: var(--nunito-font); 
+}
+
+.prices .box7{
+    background-color: var(--box-color);
+    padding: 42px 16px;
+    margin: 10px;
+    border-radius: 20px;
+}
+.prices .box7 h4{
+    font-size: 36px;
+    color: var(--fonts-color-2);
+    font-family: var(--nunito-font);
+}
+.prices .box7 h2{
+    font-size: 54px;
+    font-family: var(--nunito-font);
+    color: var(--fonts-color-1);
+    margin: 0;
+}
+.prices .box7 h6{
+    font-size: 16px;
+    color: var(--fonts-color-2);
+    font-family: var(--nunito-font);
+    margin-bottom: 20px;
+}
+.prices .box7 span{
+    font-size: 16px;
+    color: var(--fonts-color-2);
+    font-weight: 600;
+    font-family: var(--nunito-font);
+    display: block;
+    margin-bottom: 10px;
+}
+.prices .box7 span:hover{
+    font-size: 16px;
+    color: var(--fonts-color-1);
+    font-weight: 600;
+    font-family: var(--nunito-font);
+    display: block;
+    margin-bottom: 10px;
+}
+.prices .box7 button{
+    margin: 20px;
+    background-color: var(--btn-color);
+}
+.prices .box7 button a{
+    color: var(--fonts-color-2);
+}
+.prices .box7 button:hover{
+    margin: 20px;
+    background-color: var(--fonts-color-2);
+}
+.prices .box7 button:hover a{
+    color: var(--fonts-color-1);
+}
+
+.prices .box-sub{ 
+    background-color: var(--fonts-color-2);
+    padding: 42px 16px;
+    border-radius: 20px;
+}
+.prices .box-sub h4{
+    font-size: 36px;
+    color: var(--fonts-color-4);
+    font-family: var(--nunito-font);
+}
+.prices .box-sub h2{
+    font-size: 54px;
+    font-family: var(--nunito-font);
+    color: var(--fonts-color-4);
+    margin: 0;
+}
+.prices .box-sub h6{
+    font-size: 16px;
+    color: var(--fonts-color-4);
+    font-family: var(--nunito-font);
+    margin-bottom: 20px;
+}
+.prices .box-sub span{
+    font-size: 16px;
+    color: var(--fonts-color-4);
+    font-weight: 600;
+    font-family: var(--nunito-font);
+    display: block;
+    margin-bottom: 10px;
+}
+.prices .box7 span:hover{
+    font-size: 16px;
+    color: var(--fonts-color-1);
+    font-weight: 600;
+    font-family: var(--nunito-font);
+    display: block;
+    margin-bottom: 10px;
+}
+.prices .box-sub button{
+    margin: 20px;
+    background-color: var(--box-color);
+}
+.prices .box-sub button:hover{
+    margin: 20px;
+    background-color: var(--fonts-color-1);
+}
+.prices .box-sub button:hover a{
+    color: var(--fonts-color-2);
+}
+footer{
+    background-image: url(../img/Background64.jpg);
+    background-size: cover;
+    padding: 50px 0;
+}
+footer .logo img{
+    width: 100%;
+    margin-bottom: 14px;
+}
+footer p{
+    font-size: 18px;
+    margin-bottom: 14px;
+    color: var(--fonts-color-2);
+    font-family: var(--nunito-font);
+}
+footer .icon .box9 ,.closer .icon .box9{
+    width: 36px;
+    height: 36px;
+    text-align: center;
+    line-height: 36px;
+    margin: 5px;
+    background-color: var(--btn-color);
+    border-radius: 50%;
+    font-size: 20px;
+}
+footer .icon .box9:hover,.closer .icon .box9:hover{
+    background-color: var(--fonts-color-4);
+    color: var(--fonts-color-3);
+}
+footer h6{
+    font-size: 20px;
+    font-family: var(--open-sans-font);
+    color: var(--fonts-color-1);
+    font-weight: 600;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+footer ul li{
+    margin: 10px 0;
+}
+footer ul li a{
+    font-size: 16px;
+    font-family: var(--open-sans-font);
+    color: var(--fonts-color-3);
+}
+footer .explore ul li a i{
+    font-size: 10px;
+    color: var(--fonts-color-3);
+}
+footer ul li a:hover,footer .explore ul li a:hover i{
+    color: var(--fonts-color-2);
+}
+.closer{
+    background-image: url(../img/Background64.jpg);
+    background-size: cover;
+    background-position: 50%;
+    background-color: var(--fonts-color-6);
+}
+.closer h4{
+    font-size: 16px;
+    color: var(--fonts-color-1);
+    font-family: var(--nunito-font);
+    margin-bottom: 20px;
+}
+.closer p i{
+    font-size: 22px;
+    color: var(--fonts-color-5);
+    margin-right: 10px;
+}
+.closer p span{
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 5px;
+    font-family: var(--noto-font);
+}
+
+
+
+
+
+.xs-1,.xs-2,.xs-3,.xs-4,.xs-5,.xs-6,.xs-7,.xs-8,.xs-9,.xs-10,.xs-11,.xs-12,.sm-1,.sm-2,.sm-3,.sm-4,.sm-5,.sm-6,.sm-7,.sm-8,.sm-9,.sm-10,.sm-11,.sm-12,.md-1,.md-2,.md-3,.md-4,.md-5,.md-6,.md-7,.md-8,.md-9,.md-10,.md-11,.md-12,.lg-1,.lg-2,.lg-3,.lg-4,.lg-5,.lg-6,.lg-7,.lg-8,.lg-9,.lg-10,.lg-11,.lg-12,.xl-1,.xl-2,.xl-3,.xl-4,.xl-5,.xl-6,.xl-7,.xl-8,.xl-9,.xl-10,.xl-11,.xl-12{
+    padding: 12px;
+}
+
+.xs-1{
+    width: 8.3333%;
+}
+.xs-2{
+    width: 16.66%;
+}
+.xs-3{
+    width: 25%;
+}
+.xs-4{
+    width: 33.33%;
+}
+.xs-5{
+    width: 41.66%;
+}
+.xs-6{
+    width: 50%;
+}
+.xs-7{
+    width: 58.33%;
+}
+.xs-8{
+    width: 66.66%;
+}
+.xs-9{
+    width: 75%;
+}
+.xs-10{
+    width: 83.33%;
+}
+.xs-11{
+    width: 91.66%;
+}
+.xs-12{
+    width: 100%;
+}
+
+
